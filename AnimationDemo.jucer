@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="GvMkKT" name="AnimationDemo" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="kD9LNe" name="AnimationDemo">
+    <GROUP id="{60F81A73-1E5D-784F-8D3C-FA4F8FB789FA}" name="Source">
+      <FILE id="vtkkNN" name="AnimatedComponent.cpp" compile="1" resource="0"
+            file="Source/AnimatedComponent.cpp"/>
+      <FILE id="UD7cJv" name="AnimatedComponent.h" compile="0" resource="0"
+            file="Source/AnimatedComponent.h"/>
+      <FILE id="KuhLSz" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="KDrqqy" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="bWw6dc" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="AnimationDemo"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="AnimationDemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Developer/lib/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Developer/lib/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Developer/lib/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Developer/lib/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Developer/lib/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
